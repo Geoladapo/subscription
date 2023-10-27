@@ -38,12 +38,13 @@
         <div class="container__form">
           <p>Subscribe to my newsletter.</p>
           <div>
-            <form action="#">
+            <form action="https://formspree.io/f/mpzgbbww" method="POST">
               <div>
                 <input
                   type="text"
                   placeholder="Enter your name"
                   class="form__input"
+                  name="subscribers name"
                   required
                 />
               </div>
@@ -52,10 +53,11 @@
                   type="email"
                   placeholder="Enter your Email"
                   class="form__input"
+                  name="subscribers email"
                   required
                 />
               </div>
-              <button type="submit" class="form__button">Subscribe</button>
+              <input type="submit" class="form__button" />
             </form>
             <p class="link">
               Click on this link to <a href="#"> Get your book</a>
