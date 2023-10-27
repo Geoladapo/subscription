@@ -64,12 +64,12 @@ body {
 
 .form__input {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.8rem;
 }
 
 .form__button {
   background: hsl(154, 59%, 51%);
-  padding: 0.5rem;
+  padding: 0.8rem;
   border-radius: 0.2rem;
   border: none;
   cursor: pointer;
